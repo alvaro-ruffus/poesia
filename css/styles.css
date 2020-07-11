@@ -8,7 +8,7 @@
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)bg
  */
 :root {
   --blue: #007bff;
@@ -6208,7 +6208,7 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
+.-primary {
   background-color: #64a19d !important;
 }
 
@@ -10227,7 +10227,7 @@ body {
 	width: 100%;
 	height: auto;
 	min-height: 35rem;
-	padding: 15rem 0;
+	padding: 1rem 0;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -10272,11 +10272,13 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+	padding-top: 10rem;
+	background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+	color: #FFFFFF;
 }
 .about-section p {
-  margin-bottom: 5rem;
+	margin-bottom: 5rem;
+	color: #FF0000;
 }
 
 .projects-section {
